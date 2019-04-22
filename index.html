@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html dir="rtl">
+
+<head>
+    <link rel="stylesheet" href="./source/w3.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./source/jquery-3.3.1.js"></script>
+    <script src="./main.js"></script>
+</head>
+
+<body class="font">
+    <div style="width: 25%; min-width:360px;" class="w3-content w3-card-4 w3-white main">
+        <div>
+            <img style="width:100%;" src="./source/media/pics/32858_242.jpg">
+        </div>
+
+        <div class="w3-padding-large w3-content" style="width: fit-content;">
+            <span id="label" style="float:right; width: fit-content;" class="w3-xlarge"> تعداد صلوات</span>
+            <input id="salavat" style="width: 200px; direction: ltr; padding: 2px 6px;"
+                class="w3-green w3-hover-blue-gray w3-center w3-input w3-round-xlarge w3-xlarge font" type="number">
+        </div>
+
+
+
+        <div class="w3-container">
+            <button id="btnClick" class="w3-btn w3-margin-bottom w3-red w3-block w3-content w3-round-xxlarge w3-xlarge"
+                style="max-width: 400px;" onclick="getSalavat()">
+                ورود به دیار شهدا
+            </button>
+        </div>
+
+        <div>
+            <h2 id="warning" class="font w3-animate-left w3-center w3-text-red" style="font-weight:600; display: none;">
+                تعداد صلوات باید بیشتر از 0 باشد </h2>
+        </div>
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>

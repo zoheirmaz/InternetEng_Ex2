@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    height: 100vh;
+    /* background-color: royalblue; */
+}
+
+.main{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.font{
+    font-family: myFirstFont;
+}
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(./source/font/B\ Nazanin.ttf);
+  }
